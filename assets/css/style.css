@@ -42,12 +42,15 @@ body {
 }
 
 .nav-link {
-  color: #1090cb;
+  color: #000000;
   font-weight: 400;
   line-height: normal;
 }
+.active {
+  color: #1090cb;
+}
 
-.nav-item:first-child::before {
+.active::before {
   content: "";
   top: -5px;
   left: -6px;
@@ -93,15 +96,31 @@ body {
   justify-content: center;
   background-color: rgba(16, 144, 203, 0.1);
   gap: 25px;
+  position: relative;
+  padding: 0 195px 0 100px;
 }
 
-.carusel,
+.carusel_info,
 .info_img {
   width: 50%;
 }
 
-.info_img img {
+.desc_img {
   width: 100%;
+}
+
+.info_img {
+  position: relative;
+}
+
+.info_back {
+  position: absolute;
+  overflow: hidden;
+  right: -65px;
+  top: -24px;
+  z-index: -1;
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
 
 .carusel_info {
@@ -125,6 +144,31 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+/* .carusel_title_img {
+  position: absolute;
+  top: 500px;
+  left: -500px;
+  z-index: -200px;
+} */
+
+.carusel_title_img {
+  overflow: hidden;
+  width: 496px;
+  height: 504px;
+  border-radius: 504px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #edeaff 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+  position: absolute;
+  /*  top: 500px; */
+  /*  left: -500px; */
+  top: 6px;
+  left: -137px;
+  z-index: -50;
 }
 
 .carusel_title b {
