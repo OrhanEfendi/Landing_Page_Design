@@ -470,8 +470,55 @@ body {
   width: 50%;
 }
 
-.part2_img_info img {
+.part2_img_info {
+  position: relative;
+  overflow: clip;
+}
+
+.part2_img_back {
+  width: 497px;
+  height: 505px;
+  border-radius: 50%;
+  background: radial-gradient(
+    74.36% 74.47% at 50% 50%,
+    #ded9ff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  left: 540px;
+  position: absolute;
+  opacity: 0.7;
+}
+.part2_img {
+  height: 545px;
   width: 100%;
+}
+.part2_img_back_2 {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background: radial-gradient(
+    74.36% 74.47% at 50% 50%,
+    #ded9ff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  position: absolute;
+  top: 60px;
+  left: 400px;
+  opacity: 0.5;
+  z-index: -1;
+}
+.card_back {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background: radial-gradient(
+    74.36% 74.47% at 50% 50%,
+    #f3ffd9 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0.8;
+  z-index: -1;
 }
 
 .part2_desc {
