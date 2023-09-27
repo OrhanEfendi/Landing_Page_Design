@@ -517,7 +517,8 @@ body {
     #f3ffd9 0%,
     rgba(255, 255, 255, 0) 100%
   );
-  opacity: 0.8;
+  left: -100px;
+  opacity: 0.6;
   z-index: -1;
 }
 
