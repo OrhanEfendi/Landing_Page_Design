@@ -20,7 +20,7 @@ body {
 .content_title {
   cursor: pointer;
   color: #1090cb;
-  font-family: Poppins;
+  font-family: var(--fontLetter);
   font-size: 29px;
   font-style: normal;
   font-weight: 700;
@@ -1371,4 +1371,250 @@ body {
   font-weight: 400;
   line-height: 210.9%; /* 33.744px */
   letter-spacing: 0.16px;
+}
+
+.contact_us_info {
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_us_desc {
+  width: 50%;
+}
+
+.contact_us_desc img {
+  display: flex;
+  justify-content: center;
+
+  /* width: 40px;
+  height: 40px; */
+  background-color: #f5f3da;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+.contac_us_map {
+  width: 50%;
+}
+
+.contac_us_map img {
+  width: 100%;
+}
+
+.contact_us_desc {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.main_head_contact {
+  color: #000;
+  font-family: var(--fontLetter);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%;
+}
+
+.main_head_desc {
+  color: #777;
+  font-family: var(--fontLetter);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 189.5%;
+}
+
+.contac_us_map {
+  position: relative;
+}
+
+.contact_circle {
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 310px;
+  bottom: 20px;
+  background-color: rgba(255, 0, 0, 0.12);
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+
+.main_contact_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.contact_soc_media {
+  padding: 30px;
+  border-right: 1px solid #c2c2c2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.contact_soc_med_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.contact_us_media {
+  padding: 100px;
+  gap: 86px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact_num {
+  padding: 40px;
+  border-right: 1px solid #c2c2c2;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone_desc {
+  color: #333;
+
+  font-family: var(--fontLetter);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.contact_address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.contact_add_info {
+  color: #333;
+
+  font-family: var(--fontLetter);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.contact_information_guests {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  background-color: #e8f4fa;
+  width: 100%;
+  height: 858px;
+}
+
+.form_contact {
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.guest_name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 27px;
+}
+
+.input_guests {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.name_inp {
+  width: 322px;
+  height: 56px;
+  border-radius: 9px;
+  border: none;
+  background: #ffffff;
+}
+
+.email_inp {
+  width: 671px;
+  height: 56px;
+  border-radius: 9px;
+  border: none;
+  background: #ffffff;
+}
+
+.message_inp {
+  width: 671px;
+  height: 232px;
+  border-radius: 9px;
+  border: none;
+  background: #ffffff;
+}
+
+.guest_inf_text {
+  color: #1d1c1c;
+
+  font-family: var(--fontLetter);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175.4%; /* 24.556px */
+  letter-spacing: -0.3px;
+}
+
+.guests_greets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.guests_greet_head {
+  color: #000;
+
+  font-family: var(--fontLetter);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 189.5%;
+}
+
+.guests_greet_text {
+  color: #777;
+
+  text-align: center;
+  font-family: var(--fontLetter);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 189.5%;
+}
+
+.position_but {
+  position: absolute;
+  right: 400px;
 }
